@@ -6,11 +6,15 @@ Catapult requires an `Authorization` header in order to consume its web API, whi
 
 This application is available as a public service on Heroku, or you can deploy your own if you want to.
 
+Set Up Catapult Account
+--------------------
+If you don't have one already, you should create an account on [Catapult](https://catapult.inetwork.com). You will need your user ID, API token, and API secret from your Account page to configure the IFTTT channel. 
+
 Configure IFTTT Maker Channel
 --------------------
 To use Catapult to send SMS, use the [IFTT Maker Channel](https://ifttt.com/maker) to make a web request.
 
-![IFTTT Maker Channel](https://github.com/nguyer/ifttt-catapult-sms/img/ifttt_r.png)
+![IFTTT Maker Channel](https://raw.githubusercontent.com/nguyer/ifttt-catapult-sms/master/img/ifttt_r.png)
 
  - Set URL to **https://ifttt-catapult-sms.herokuapp.com/sms**
  - Set Method to **POST**
