@@ -1,0 +1,31 @@
+{
+  "name": "ifttt-catapult-sms",
+  "version": "1.0.0",
+  "description": "Send SMS from Catapult with IFTTT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyer/ifttt-catapult-sms.git"
+  },
+  "keywords": [
+    "SMS",
+    "IFTTT",
+    "Catapult",
+    "Bandwidth"
+  ],
+  "author": "Nicko Guyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nguyer/ifttt-catapult-sms/issues"
+  },
+  "homepage": "https://github.com/nguyer/ifttt-catapult-sms#readme",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "node-bandwidth": "^1.1.1"
+  }
+}
