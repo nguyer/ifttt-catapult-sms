@@ -57,7 +57,7 @@ app.post("/sms/key/:key/event/:event", function (req, res) {
 					break;
 				}
 				case "text" : {
-					event[i] = text;
+					event[i] = text.toLowerCase();
 					break;
 				}
 			}

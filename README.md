@@ -60,6 +60,8 @@ Now that you have Catapult configured, create your recipe in IFTTT using the the
 
 Set the Event Name to the value that corresponds to the Callback URL that you defined in your Catapult application. For our example we used `from-to`, which will trigger events from a specfic number, to a specific number. For instance, if we want our event to trigger any time our Catapult number `+11234567890` receives a message from `+15678901234`, our Event Name would be `+15678901234-+11234567890`.
 
+> Note, that the value of `text` will always be lowercase in the event name. In your IFTTT event name, be sure to only use lowercase, otherwise your text will not match. This is allow the actual text message sent by the user to be non-case sensitive.
+
 You can also use the `text`, `from`, and `to`, fields as ingredients in your recipe. The contents of the text message are `{{Value1}}`, the from number is `{{Value2}}`, and the to number is `{{Value3}}`.
 
 Running Your Own Server
